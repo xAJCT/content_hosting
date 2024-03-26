@@ -1,0 +1,49 @@
+body {
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  background-color: rgb(34, 37, 42);
+}
+
+.app-container {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  /* Prevents double borders */
+  margin-top: -1px;
+}
+
+li:hover {
+
+  background-color: #ffffff9d;
+}
+
+#img {
+  max-width: 700px;
+}
+
+@media only screen and (max-width: 400px) {
+  #img {
+    max-width: 300px;
+  }
+}
+
+#containment {
+  max-width: 800px;
+}
+
+#description {
+  max-width: 800px;
+}
+
+#menu {
+  max-width: 800px;
+}
